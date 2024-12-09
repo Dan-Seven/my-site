@@ -1,0 +1,673 @@
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.fixed{
+    background-color: transparent;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+header{
+    transition:all 0.5s;
+    position: relative;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+header .center{
+    padding:0 2%;
+    justify-content: space-between;
+}
+header .logo{
+    width: 200px;
+    height: 70px;
+}
+header .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+header .navbar{
+  /*   font-family: 'Lilita One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+header .navbar li{
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+header .navbar li:hover{
+    color: blueviolet;
+}
+.contato{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 40px;
+    height: 50px;
+    width: 150px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid rgb(168, 165, 168);
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(85, 3, 85) ,#DE192F);
+}
+.contato:hover{
+    color: blueviolet;
+    transform: scale(1.1);
+    border-color: blue;
+}
+
+/* fim do cabecalho */
+.section01{
+    font-family: 'Gabarito', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url(../images/fundo1.jpg);
+    background-color: rgb(25, 25, 25);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.callback{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+}
+.callback h1{
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 35px;
+}
+.callback p{
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+   font-size: 15px;
+}
+.section01 .bi{
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 10px;
+}
+.section01 .bi:hover{
+    transform: scale(1.2);
+   color:#DE192F;
+}
+.contate{
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.section01 span{
+    color: #D61831;
+}
+.section01 .contato{
+    margin-left: 10px;
+}
+.fluter{
+    z-index: 3;
+    text-align: center;
+    animation: flutter 7s infinite ease-in-out;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    width: 250px;
+    height: 250px;
+}
+.fluter img{
+    width: 100%;
+    height: 100%;
+}
+.shadow{
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    width: 90%;
+    height: 10px;
+    background-color: black;
+}
+.code{
+    padding: 10px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #DE192F;
+    background-color: black;
+}
+.code .center{
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex; 
+}
+.code img{
+    width: 200px;
+    height: 100%;
+}
+/* inicio da sessao2 */
+.section02{
+    padding: 10px;
+    color: white;
+    padding-bottom: 5%;
+    width: 100%;
+   background-color: black;
+}
+.section02 .center{
+    border-color: white;
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.section02 img{
+    width: 200px;
+    height: 200px;
+}
+.section02 h1{
+    margin-bottom: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+.section02 p{
+    font-size: 20px;
+    font-family: 'Gabarito', sans-serif;
+    margin: 5px;
+}
+.section02 span{
+    color: #c419de;
+}
+.conteudo{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.conteudo img{
+    width: 100px;
+    height: 100px;
+}
+.conteudo li{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 350px;
+}
+.conteudo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.conteudo h1{
+    font-size: 20px;
+}
+.conteudo p{
+    font-size: 18px;
+}
+.sobre{
+    margin-top: 2%;
+    width: 100%;
+}
+.list{
+    padding: 2%;
+    border-color: blue;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.list li{
+    cursor: pointer;
+    transition: 0.5s;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border-radius: 5px;
+    width: 24%;
+    height: 200px;
+}
+.list li img{
+    width: 80px;
+    height: 80px;
+}
+.list li p{
+    font-size: 14px;
+}
+.baixo{
+    margin-top: 40px;
+    background-color: #D61831;
+}
+
+.cima{
+    background-color: rgb(56, 3, 66);
+}
+.responsive {
+    margin-top: px;
+    width: 80%;
+}
+.responsive ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section02 .logo{
+    margin-top: 5%;
+    width: 400px;
+    height: 40px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Serviços */
+.Serviços{
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: white;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: #D61831;
+}
+.Serviços .center{
+    align-items: center;
+    flex-direction: column;
+}
+.Serviços h1{
+    margin-top:3%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Serviços h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.works{
+    user-select: none;
+    transition: 0.5s;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.carrosel{
+    user-select: none;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.Serviços .bi{
+    z-index: 999;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 40px;
+    position: absolute;
+}
+.bi-caret-right-fill{
+    right: -20px;
+}
+.bi-caret-left-fill{
+    left: -20px;
+}
+.works li{
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.5s;
+    align-items: center;
+    border-color: blue;
+    width: 380px;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.works li img{
+    width: 100%; 
+}
+.response{
+    width: 100%;
+    
+}
+
+.more{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1947de;
+}
+.bullets{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.bullets span{
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.bullets span.active{
+    border: 2px solid  white;
+    background-color: rgb(51, 49, 49);
+}
+.perguntas{
+    width: 100%;
+    background-image: url(../images/fundo1.jpg);
+}
+.perguntas .center{
+    align-items: center;
+    padding: 5%;
+    flex-direction: column;
+}
+.perguntas h1{
+    font-size: 30px;
+    color: rgb(248, 248, 248);
+    font-family: 'Ubuntu', sans-serif;
+}
+.perguntas span{
+    color: #c419de;
+}
+.separar{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.orcamento{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 5%;
+    padding: 10px 30px;
+    background: linear-gradient(to right, rgb(85, 3, 85) ,#DE192F);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 0 0 2px white;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.orcamento:hover{
+    transform: scale(1.1);
+    color: #5a18d6;
+}
+.quiz{
+    overflow: scroll;
+    border-radius: 5px;
+    width: 500px;
+    height: 460px;
+    transition: 0.5s;
+    margin-top: 5%;
+    gap: 5px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.quiz li{
+    padding: 20px;
+    background:rgb(80, 77, 77);
+    transition: 0.2s;
+    user-select: none;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.quiz h2{
+    gap: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    display: flex;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(248, 248, 248);
+}
+.quiz h2 .bi-caret-right-fill{
+    font-size: 30px;
+    transition: 0.2s;
+}
+.quiz p{
+    display: none;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #ff00b3;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    position: relative;
+    border-top: 5px solid white;
+    display: flex;
+    width: 100%;
+    background-image: url(../images/pexels-frank-cone-3607542.jpg);
+    padding-bottom: 5%;
+}
+.form .center{
+    overflow: 999;
+    position: relative;
+    padding: 3% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.form h1{
+    width: 100%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.formulario form{
+    gap: 20px;
+    border: 5px solid black;
+    box-shadow: 0 0 0 5px white;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(206, 201, 201);
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+.formulario span{
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.formulario input[type='text']{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+}
+.formulario input[type='submit']{
+    box-shadow: 0px 0px 0px 2px black;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border:2px solid rgb(255, 255, 255) ;
+    border-radius: 5px ;
+    color: white;
+    background-color: #080808;
+}
+.form .logo{
+    position: relative;
+    animation: flutter2 5s infinite ease-in-out;
+    width: 300px;
+    height: 300px;
+}
+.form .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.contrato{
+    position: relative;
+    border-top: 5px solid purple;
+    background-image: url(../images/teste2.png);
+    padding: 2% 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contrato .center{
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    padding-bottom: 5%;
+}
+.contrato h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+.scs{
+    margin-bottom: 5%;
+}
+.demanda{
+    display: flex;
+}
+.expresso{
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.expresso h1{
+    width: 100%;
+    color:rgb(230, 222, 222);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 5px;
+    background-color: #c419de;
+    font-size: 13px;
+}
+.contrato h1 span{
+    color: #d618d6;
+}
+.expresso h1 span{
+    color: white;
+    font-size:30px ;
+}
+.preco{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ff00b3;
+    font-size: 18px;
+}
+.valor{
+    color: #d618a6;
+    font-size: 30px;
+}
+.expresso .incluso{
+    font-size:18px ;
+    color: #c419de;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nha{
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+.nha li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(136, 134, 134);
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nha .bi{
+    font-size: 30px;
+    color: black;
+}
+.expresso .orcamento{
+    margin-bottom: 5%;
+}
+.cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b9;
+}
+.Contato{
+    width: 100%;
+    background-color: #d618a6;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+}
+
+

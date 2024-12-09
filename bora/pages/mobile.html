@@ -1,0 +1,321 @@
+<?php
+$userAgent = $_SERVER['HTTP_USER_AGENT'];
+
+// Verificar se o usuário está em um dispositivo móvel
+$isMobile = strpos($userAgent, 'Mobile') !== false;
+
+if ($isMobile) {
+    header('Location: mobile.html');
+    exit();
+} else {
+    header('Location: index.html');
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="dhscode">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <meta name="description" content="Criamos sua landing page de forma eficaz">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./images/logo2 dhscode.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lilita+One&family=Montserrat:wght@800&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <script type="module" defer src="../js/mobile.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="keywords" content="agência de websites, desenvolvimento web, design responsivo, criação de sites, dhscode, Dhscode, dhscode.com, dhscode.com.br, discord, dhs, DHS, Landing Pages, paginas web, criar site, site, fazer meu site, fazer site, code, SEO, agencia, codigo, daniel, empresa de sites, criador de sites, dhcode, como ter meu site, site barato, ">
+<meta name="description" content="Agência especializada em desenvolvimento e design de websites responsivos">
+<meta name="author" content="Dhscode">
+<meta name="robots" content="index, follow">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#4285f4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Dhscode">
+<meta name="application-name" content="Dhscode">
+<meta name="msapplication-TileColor" content="#4285f4">
+<meta name="msapplication-config" content="browserconfig.xml">
+<meta name="msapplication-tooltip" content="A Dhscode é uma agencia de paginas web que foca em landing pages baratas e eficazes">
+<meta name="msapplication-starturl" content="dhscode.com">
+<meta name="msapplication-navbutton-color" content="#4285f4">
+<meta name="msapplication-window" content="width=device-width;height=device-height">
+<meta name="msapplication-task" content="name=Task 1;action-uri=URI da Tarefa 1;icon-uri=Ícone da Tarefa 1">
+<meta name="msapplication-task" content="name=Task 2;action-uri=URI da Tarefa 2;icon-uri=Ícone da Tarefa 2">
+<meta name="msapplication-task" content="name=Task 3;action-uri=URI da Tarefa 3;icon-uri=Ícone da Tarefa 3">
+<meta name="msapplication-task" content="name=Task 4;action-uri=URI da Tarefa 4;icon-uri=Ícone da Tarefa 4">
+<meta name="msapplication-task" content="name=Task 5;action-uri=URI da Tarefa 5;icon-uri=Ícone da Tarefa 5">
+<meta property="og:title" content="Dhscode">
+<meta property="og:type" content="website">
+<meta property="og:url" content="dhscode.com">
+<meta property="og:image" content="dhscode/images/logo dhscode.png">
+<meta property="og:description" content="A Dhscode é uma empresa que foca na criação de Landing Pages baratas e 100% eficazes">
+<meta property="og:site_name" content="Dhscode">
+<meta property="og:locale" content="pt_BR">
+<meta property="article:author" content="Daniel Henrique">
+<meta property="article:published_time" content="07/08/2023">
+<meta property="article:modified_time" content="09/08/2023">
+<meta property="article:section" content="Seção do Artigo">
+<meta property="article:tag" content="Tag do Artigo">
+<meta property="article:published_first" content="Data da Primeira Publicação">
+<meta property="article:published_last" content="Data da Última Publicação">
+<meta name="geo.region" content="BR">
+<meta name="geo.placename" content="Matão, São Paulo">
+    <title>Mobile</title>
+</head>
+<body>
+    <div class="option">
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#sobre"><li>Sobre</li></a>
+            <a href="#servicos"><li>Serviços</li></a>
+           <a href="#perguntas"><li>Perguntas</li></a>
+          <a href="#contato"><li>Contato</li></a>
+        </ul>
+    </div>
+<div class="call"> <a href="https://api.whatsapp.com/send?phone=+5516981453458&text=Ola gostaria de solicitar um orcamento." target="_blank"><i class="bi bi-whatsapp"></i></a></div>
+<header>
+    <div class="center">
+        <div class="togle"><i class="bi bi-list"></i></div>
+         <div class="logo"><img src="../images/texto2-removebg-preview.png" alt="Logo_Dhscode"></div>
+    </div>
+</header>
+
+<section class="section01" id="home">
+    <div class="cover"></div>
+        <div class="center">
+            <div class="fluter"><img src="../images/logo dhscode.png" alt="DhscodeLogo"></div>
+   
+        <div class="content">
+            <h1 class="callback">Sua Jornada <span>Online</span> Começa com uma <span>Landing Page</span> Perfeita</h1>
+
+            <p>Sites interativos são a nossa marca registrada. Com a <span>Dhscode</span> o seu site tem presença e inovação . Descubra o potencial do seu negócio online</p>
+
+
+            <a href="#contato"><button class="contato">Entre em contato</button></a>
+
+            <ul class="redes">
+               <a href=""><li><i class="bi bi-instagram"></i></li></a>
+              <a href=""><li><i class="bi bi-facebook"></i></li></a>
+            </ul>
+        </div>
+    </div><!--center-->
+</section>
+
+<section class="section02" id="sobre">
+    <div class="center">
+        <h2>O que <span>Fazemos ?</span></h2>
+        <ul class="list">
+            <li class="purple">
+                <img src="../images/site.png" alt="">
+               <p>Criamos landing pages animadas e interativas</p>
+            </li>
+            <li class="red">
+                <img src="../images/IA.png" alt="">
+                <p>Criamos seu SEO usando inteligencias artificiais altamente treinadas</p>
+            </li>
+            <li class="purple">
+                <img src="../images/manutenção.png" alt="">
+                <p>Com manutenções e otimizações de até 6 meses como garantia</p>
+            </li>
+            <li class="red">
+                <img src="../images/design.png" alt="">
+                <p>Criamos designs totalmente atrativos conquistando a atenção dos clientes</p>
+            </li>
+        </ul>
+
+        <div class="conteudo">
+            <h1>FUNCIONALIDADES DOS SITES</h1>
+            <ul>
+                <li>
+                    <img src="../images/responsive.png" alt="">
+                    <h1>Sites responsivos</h1>
+                    <p>Seu site deve ser tão atraente em dispositivos móveis quanto em desktops. Todos os nossos sites são responsivos, garantindo que ninguém perca a oportunidade de se conectar com você.</p>
+                </li>
+               
+                <li>
+                    <img src="../images/SEO icon.png" alt="">
+                    <h1>Site Otimizado para o Google</h1>
+                    <p> A visibilidade é fundamental. Nossos sites são otimizados para mecanismos de busca (SEO), ajudando você a se destacar nos resultados de pesquisa e alcançar mais pessoas.</p>
+                </li>
+               
+                <li>
+                    <img src="../images/tec.icon.png" alt="">
+                    <h1>Tecnologias de Ponta</h1>
+                    <p>Trabalhamos com duas tecnologias para montar sites: o WordPress, que é a plataforma usada por mais de 30% dos sites do mundo, e uma tecnologia israelense que é a plataforma usada por mais de 39 milhões de sites no mundo.</p>
+                </li>
+               
+                <li>
+                    <img src="../images/design.icon.png" alt="">
+                    <h1>Personalização Completa</h1>
+                    <p>Cada site que criamos é único, projetado sob medida para atender às suas necessidades e refletir a identidade da sua marca. Não usamos modelos genéricos; tudo é feito do zero.</p>
+                </li>
+               
+                <li>
+                    <img src="../images/suporte.icon.png" alt="">
+                    <h1>Suporte contínuo</h1>
+                    <p>Não entregamos apenas um site e partimos. Fornecemos suporte contínuo e atualizações para garantir que seu site permaneça atualizado e funcional.</p>
+                </li>
+               
+                <li>
+                    <img src="../images/atrative.icon.png" alt="">
+                    <h1>Sites atrativos</h1>
+                    <p>A primeira impressão conta, e nossos sites são visualmente deslumbrantes. Utilizamos elementos de design modernos, cores atraentes e tipografia elegante para garantir que seu site seja memorável.</p>
+                </li>
+               
+               
+            </ul>
+            <div class="logo"><img src="../images/Dhscode.png" alt=""></div>
+        </div>
+    </div><!--center-->
+</section>
+
+<section class="Serviços" id="servicos">
+    <div class="center">
+        <h1>Designes Ilustrativos</h1>
+
+        <h2>Da palma da sua mão até a tela da sua tv</h2>
+        <ul class="works">
+            <li>
+              <img src="../landing/advocacia.png" draggable="false" alt="">
+            </li>
+            <li>
+                <img src="../landing/barbearia.jpg" draggable="false" alt="">
+              </li>
+              <li>
+                <img src="../landing/designer.png" draggable="false" alt="">
+              </li>
+              <li>
+                <img src="../landing/oficina.png" draggable="false" alt="">
+              </li>
+              <li>
+                <img src="../landing/nutricionista.png" draggable="false" alt="">
+              </li>
+              <li>
+                <img src="../landing/advocacia2.png" draggable="false" alt="">
+              </li>
+        </ul>
+        <div class="bullets">
+            <span class="active"></span>
+            <span></span> 
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</section>
+
+<section id="perguntas" class="perguntas">
+    <div class="center">
+        <h1>Perguntas <span>frequentes</span></h1>
+
+        <ul class="quiz">
+            <li><h2><i class="bi bi-question-circle"></i>Quais tipos de sites você cria (ex: sites corporativos, lojas online, blogs, etc.)? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">A Dhscode foca na criação de landing pages. Com o objetivo principal de incentivar os visitantes a realizar uma ação específica, como preencher um formulário, fazer uma compra, assinar uma newsletter ou clicar em um botão.</p>
+            </li>
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Vocês oferecem serviços de manutenção e atualização de sites? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Sim, oferecemos serviços abrangentes de manutenção e atualização de sites, incluindo um período de suporte direto de 6 meses após o lançamento do projeto. Estamos comprometidos em garantir que seu site esteja sempre atualizado e funcionando perfeitamente.</p>
+            </li>
+            
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Como funciona o processo de design? Vocês criam o design personalizado? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Na Dhscode, nosso processo de design é altamente personalizado. Contamos com uma equipe talentosa dedicada a criar designs exclusivos e sob medida para cada cliente. Nossos designs são desenvolvidos com base nas suas necessidades e objetivos específicos, garantindo que seu site seja verdadeiramente único e represente a essência da sua marca.</p>
+            </li>
+            
+            <li>
+                <h2><i class="bi bi-question-circle"></i>O site que vocês desenvolvem é responsivo, ou seja, se adapta a dispositivos móveis? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Sim, todos os sites desenvolvidos pela Dhscode são entregues com design responsivo. Isso significa que seu site se adaptará perfeitamente a qualquer tipo de tela, proporcionando uma experiência de usuário consistente e amigável, independentemente do dispositivo utilizado.</p>
+            </li>
+            
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Vocês oferecem serviços de otimização para mecanismos de busca (SEO)? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Sim, na Dhscode, nossa equipe utiliza o auxílio de inteligência artificial altamente treinada para desenvolver estratégias de SEO eficazes. Estamos comprometidos em otimizar seu site para garantir uma visibilidade superior nos mecanismos de busca, aumentar o tráfego orgânico e impulsionar o desempenho online da sua marca.</p>
+            </li>
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Quais tecnologias e plataformas vocês utilizam para o desenvolvimento de sites? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Na Dhscode, utilizamos um conjunto de tecnologias modernas para desenvolver sites de alta qualidade. Isso inclui HTML, CSS, JavaScript e Node.js. Essas tecnologias nos permitem criar sites interativos, responsivos e altamente funcionais, atendendo às necessidades específicas de nossos clientes e garantindo uma experiência excepcional para os usuários.</p>
+            </li>
+            
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Quais são os prazos típicos de entrega de um projeto de site? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Na Dhscode, estamos comprometidos com prazos ágeis. Geralmente, entregamos projetos de site em até 4 dias após a confirmação do acordo. Nosso objetivo é proporcionar uma entrega rápida e eficiente, para que você possa aproveitar seu novo site o mais rápido possível.</p>
+            </li>
+            
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Quais são os custos envolvidos no desenvolvimento de um site? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">No desenvolvimento de um site, os custos geralmente incluem o registro de domínio, que tem um valor anual variando de R$50 a R$200, e a hospedagem, com um custo mensal que varia de R$30 a R$100. Na Dhscode, trabalhamos com nossos clientes para encontrar soluções que se adequem às suas necessidades e orçamento, garantindo transparência e opções acessíveis para o desenvolvimento de sites.</p>
+            </li>
+            <li>
+                <h2><i class="bi bi-question-circle"></i>Como funciona o suporte e o atendimento ao cliente após o lançamento do site? <i class="bi bi-caret-right-fill"></i></h2>
+                <p class="resposta">Na Dhscode, estamos comprometidos em fornecer um suporte excepcional aos nossos clientes após o lançamento do site. Oferecemos um atendimento direto via WhatsApp, garantindo que você tenha uma maneira rápida e conveniente de entrar em contato conosco para quaisquer dúvidas, atualizações ou assistência técnica. Nossa equipe está à disposição para ajudar a manter seu site funcionando perfeitamente e atender às suas
+            
+                <li>
+                    <h2><i class="bi bi-question-circle"></i>Quais são as opções de pagamento disponíveis para os projetos? <i class="bi bi-caret-right-fill"></i></h2>
+                    <p class="resposta">Na Dhscode, oferecemos opções de pagamento flexíveis para atender às suas necessidades. Você pode pagar por nossos serviços através de Pix ou cartão de crédito. Estamos comprometidos em proporcionar conveniência e flexibilidade nas opções de pagamento, para que você possa escolher a que melhor se adapte à sua preferência e conveniência.</p>
+                </li>  
+        </ul>
+    <a href="contato"><button class="orcamento">Peça seu orçamento</button></a>
+
+    </div>
+</section>
+
+<section class="contrato">
+    <div class="cover"></div>
+    <div class="center">
+    <h1 class="scs">CONTRATE UM SITE <span>PROFISSIONAL</span></h1>
+    <div class="demanda">
+        <ul class="expresso">
+            <h1>CRIAÇÃO DE LANDING PAGES <span>PERSONALIZADAS</span></h1>
+            <span class="preco">A partir de <span class="valor">R$300</span></span>
+            <span class="incluso">HOSPEDAGEM E SUPORTE INCLUSOS</span>
+            <ul class="nha">
+                <li><i class="bi bi-check"></i>Criação de landing pages altamente eficazes</li>
+                <li><i class="bi bi-check"></i>Design responsivo otimizado para conversões (desktop, tablet, celular)</li>
+                <li><i class="bi bi-check"></i>Personalização completa da landing page com suas cores, imagens e texto</li>
+                <li><i class="bi bi-check"></i>Integração de formulários de contato e call-to-action</li>
+                <li><i class="bi bi-check"></i>Otimização para mecanismos de busca (SEO)</li>
+                <li><i class="bi bi-check"></i>Rápido tempo de carregamento para maximizar a retenção de visitantes</li>
+                <li><i class="bi bi-check"></i>Análise de desempenho e relatórios de conversão</li>
+            </ul>
+        <a href="contato"><button class="orcamento">Solicite seu Orçamento</button></a>
+        </ul>
+        
+      
+    </div>
+</div>
+</section>
+
+<section class="form">
+    <div class="center">
+        <h1>Entre em contato conosco</h1>
+        <div class="formulario">
+            <form id="contato">
+                <span>Nome</span>
+                <input type="text" id="nome"  name="nome" required placeholder="Insira seu nome">
+                <span>Email</span>
+                <input type="text" id="email" name="email" required placeholder="Insira seu E-mail">
+                <span>Telefone</span>
+                <input type="text" id="telefone" name="telefone" required placeholder="Insira seu telefone">
+                <input id="enviar" type="submit" value="enviar">
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2023 TODOS OS DIREITOS RESERVADOS DHSCODE</p>
+</footer>
+
+  
+</body>
+</html>

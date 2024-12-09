@@ -1,0 +1,598 @@
+*{
+    font-family: 'Gabarito', sans-serif;
+}
+@keyframes fluter{
+    0%{
+        margin-top: 5%;
+    }
+    50%{
+        margin-top: 15%;
+    }
+    100%{
+        margin-top: 5%;
+    }
+}
+.option{
+    transition: 0.5s;
+    width: 0;
+    overflow: hidden;
+    list-style: none;
+    color: white;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+}
+.option ul{
+   width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.call i{
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.653);
+}
+.center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 0 auto;
+}
+.logo{
+    width: 300px;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.togle{
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width:50px;
+    height: 50px;
+}
+.togle .bi{
+    font-size: 50px;
+    color: white;
+}
+.section01{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/mobilebackground.png);
+    background-position: center;
+    background-size: cover;
+}
+.section01 .center{
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+.fluter{
+    position: relative;
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+}
+.fluter img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: fluter 5s infinite ease-in-out ;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.callback{
+    width: 300px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Gabarito', sans-serif;
+}
+span{
+    color:#DE192F;
+}
+.content p{
+    display: block;
+    text-align: justify;
+    width: 300px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contato{
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    border: 2px solid rgb(182, 179, 179);
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(85, 3, 85) ,#DE192F);
+}
+.redes{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.redes li{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: white;
+}
+.section02{
+    border-top: 10px solid #DE192F;
+    width: 100%;
+    padding-bottom: 10%;
+    background-color: black;
+}
+.section02 h2{
+    margin-top: 10%;
+    color: white;
+    font-size: 30px;
+}
+.section02 span{
+    color: blueviolet;
+}
+.section02 .center{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.list{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list img{
+    width: 200px;
+    height: 200px;
+}
+.list li{
+    cursor: pointer;
+    transition: 0.5s;
+    gap: 10px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+.list li p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.red{
+    background-color: #DE192F;
+}
+.purple{
+    background-color: blueviolet;
+}
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo h1{
+    margin-top: 5%;
+    font-size: 20px;
+    color: white;
+}
+.conteudo ul{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.conteudo ul li{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.conteudo ul li img{
+    width: 200px;
+    height: 200px;
+
+}
+.conteudo ul li p{
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
+.conteudo .logo{
+    margin-top: 10%;
+    width: 300px;
+    height: 50px;
+}
+.Serviços{
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: white;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: #D61831;
+}
+.Serviços .center{
+    align-items: center;
+    flex-direction: column;
+}
+.Serviços h1{
+    margin-top:3%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Serviços h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.works {
+    width: 300px;
+    height: 400px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.works li {
+    overflow: scroll;
+    border-radius: 10px;
+     width: 100%;
+    flex: 0 0 auto;
+}
+
+.works li img{
+    width: 100%;
+    object-fit: cover;
+}
+.bullets{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.bullets span{
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.bullets span.active{
+    border: 2px solid  white;
+    background-color: rgb(51, 49, 49);
+}
+
+
+/*Perguntas */
+
+.perguntas{
+    width: 100%;
+    background-image: url(../images/fundo1.jpg);
+}
+.perguntas .center{
+    align-items: center;
+    padding: 5%;
+    flex-direction: column;
+}
+.perguntas h1{
+    font-size: 30px;
+    color: rgb(248, 248, 248);
+    font-family: 'Ubuntu', sans-serif;
+}
+.perguntas span{
+    color: #c419de;
+}
+.orcamento{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 5%;
+    padding: 10px 30px;
+    background: linear-gradient(to right, rgb(85, 3, 85) ,#DE192F);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 0 0 2px white;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.orcamento:hover{
+    transform: scale(1.1);
+    color: #5a18d6;
+}
+.quiz{
+    width: 300px;
+    overflow: scroll;
+    border-radius: 5px;
+    height: 460px;
+    transition: 0.5s;
+    margin-top: 5%;
+    gap: 5px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.quiz li{
+    padding: 20px;
+    background:rgb(80, 77, 77);
+    transition: 0.2s;
+    user-select: none;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.quiz h2{
+    align-items: center;
+    gap: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    display: flex;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(248, 248, 248);
+}
+.quiz h2 .bi-caret-right-fill{
+    font-size: 30px;
+    transition: 0.2s;
+}
+.quiz p{
+    display: none;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #ff00b3;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form{
+    position: relative;
+    border-top: 5px solid white;
+    display: flex;
+    width: 100%;
+    background-image: url(../images/pexels-frank-cone-3607542.jpg);
+    padding-bottom: 5%;
+}
+.form .center{
+    overflow: 999;
+    position: relative;
+    padding: 3% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.form h1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.formulario form{
+    gap: 20px;
+    border: 5px solid black;
+    box-shadow: 0 0 0 5px white;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(206, 201, 201);
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.formulario span{
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.formulario input[type='text']{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+}
+.formulario input[type='submit']{
+    box-shadow: 0px 0px 0px 2px black;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border:2px solid rgb(255, 255, 255) ;
+    border-radius: 5px ;
+    color: white;
+    background-color: #080808;
+}
+.form .logo{
+    position: relative;
+    animation: flutter2 5s infinite ease-in-out;
+    width: 300px;
+    height: 300px;
+}
+.form .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.contrato{
+    position: relative;
+    border-top: 5px solid purple;
+    background-image: url(../images/teste2.png);
+    padding: 2% 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contrato .center{
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    padding-bottom: 5%;
+}
+.contrato h1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+.scs{
+    margin-bottom: 5%;
+}
+.demanda{
+    display: flex;
+}
+.expresso{
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.expresso h1{
+    width: 100%;
+    color:rgb(230, 222, 222);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 5px;
+    background-color: #c419de;
+    font-size: 13px;
+}
+.contrato h1 span{
+    color: #d618d6;
+}
+.expresso h1 span{
+    color: white;
+    font-size:20px ;
+}
+.preco{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ff00b3;
+    font-size: 18px;
+}
+.valor{
+    color: #d618a6;
+    font-size: 30px;
+}
+.expresso .incluso{
+    font-size:18px ;
+    color: #c419de;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nha{
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+.nha li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(136, 134, 134);
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nha .bi{
+    font-size: 30px;
+    color: black;
+}
+.expresso .orcamento{
+    margin-bottom: 5%;
+}
+.cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b9;
+}
+.Contato{
+    width: 100%;
+    background-color: #d618a6;
+}
+footer{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+}
+
+

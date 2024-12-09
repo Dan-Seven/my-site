@@ -1,0 +1,254 @@
+/* media query */
+
+@media (max-width: 375px){
+    .fluter{
+        display: none;
+    }
+    header .logo{
+        width: 140px;
+    }
+    .callback{
+        width: 300px;
+        margin: 5% 2%;
+    }
+    header .navbar{
+        display:none;
+    }
+    .callback h1{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .callback p{
+        font-size: 12px;
+    }
+    .code{
+        display: none;
+    }
+    .section01 .bi{
+        font-size: 20px;
+    }
+    .contato{
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+    }
+    /* secao 2 */
+
+    .section02 h1{
+        font-size: 20px;
+    }
+    
+    .list{
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .cima, .baixo{
+        margin: 0;
+    }
+    .list li{
+        width: 240px;
+    }
+    .conteudo img{
+        width: 80px;
+        height: 80px;
+    }
+    .conteudo li{
+        width: 250px;
+    }
+    .conteudo li p{
+        font-size: 15px;
+    }
+    .section02 .logo{
+        margin-top: 10%;
+        width: 200px;
+    }
+
+
+    /* servicos */
+    .Serviços h1{
+        font-size: 20px;
+    }
+    .Serviços h2{
+    font-size: 15px;
+    }
+    .bi-caret-right-fill{
+        right: 0px;
+    }
+    .bi-caret-left-fill{
+        left: 0px;
+    }
+
+    .perguntas h1{
+        font-size: 20px;
+    }
+    .separar {
+        gap: 0px;
+        flex-direction: column;
+    }
+    .quiz{
+        width: 100%;
+    }
+    .scs{
+        margin-top: 5%;
+    }
+    .contrato h1{
+        font-size: 20px;
+    }
+    .expresso{
+        width: 300px;
+    }
+    .expresso h1{
+        font-size: 20px;
+    }
+    .formulario form{
+        width: 300px;
+    }
+    .form .logo{
+        display: none;
+    }
+} 
+
+
+@media (max-width: 750px){
+    .fluter{
+        display: none;
+    }
+    header .logo{
+        width: 140px;
+    }
+    .section01{
+        border-bottom: 5px solid #DE192F;
+    }
+    .callback{
+        width: 300px;
+        margin:5%;
+    }
+    header .navbar{
+        display:none;
+    }
+    .callback h1{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .callback p{
+        font-size: 12px;
+    }
+    .code{
+        display: none;
+    }
+    .section01 .bi{
+        font-size: 20px;
+    }
+    .contato{
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+    }
+    /* secao 2 */
+
+    .section02 h1{
+        font-size: 20px;
+    }
+    
+    .list{
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .cima, .baixo{
+        margin: 0;
+    }
+    .list li{
+        width: 240px;
+    }
+    .conteudo img{
+        width: 80px;
+        height: 80px;
+    }
+    .conteudo li{
+        width: 250px;
+    }
+    .conteudo li p{
+        font-size: 15px;
+    }
+    .section02 .logo{
+        margin-top: 10%;
+        width: 200px;
+    }
+
+
+    /* servicos */
+    .Serviços h1{
+        font-size: 20px;
+    }
+    .Serviços h2{
+    font-size: 15px;
+    }
+    .bi-caret-right-fill{
+        right: 0px;
+    }
+    .bi-caret-left-fill{
+        left: 0px;
+    }
+
+    .perguntas h1{
+        font-size: 20px;
+    }
+    .separar {
+        gap: 0px;
+        flex-direction: column;
+    }
+    .quiz{
+        width: 100%;
+    }
+    .scs{
+        margin-top: 5%;
+    }
+    .contrato h1{
+        font-size: 20px;
+    }
+    .expresso{
+        width: 300px;
+    }
+    .expresso h1{
+        font-size: 20px;
+    }
+    .formulario form{
+        width: 300px;
+    }
+    .form .center{
+        justify-content: center;
+    }
+    .form .logo{
+        display: none;
+    }
+}
+@media (max-width: 947px){
+    .fluter{
+        right: 10%;
+    }
+    .bi-caret-right-fill{
+        right: 0px;
+    }
+    .bi-caret-left-fill{
+        left: 0px;
+    }
+}
+@media (max-width: 925px){
+    header .navbar li{
+        font-size: 12px;
+    }
+    .form .logo{
+        display: none;
+    }
+}
+@media (max-width: 773px){
+    header .navbar{
+        display: none;
+    }
+    .fluter{
+        width: 200px;
+        height: 200px;
+    }
+}
